@@ -1,0 +1,41 @@
+{
+  "name": "talent-training-api",
+  "version": "1.0",
+  "description": "Rest API using node.js, mongodb and all of those good practices that make your heart smile",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">=8.1.4"
+  },
+  "apidoc": {
+    "title": "Template API"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "mocha -- src/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrelcruz/nodejs-api-template.git"
+  },
+  "author": "Andre Lemes Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-validation": "^1.0.2",
+    "joi": "^13.0.2",
+    "mongoose": "^4.13.5",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.15.0",
+    "eslint-plugin-node": "^5.2.1",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  }
+}
