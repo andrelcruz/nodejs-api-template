@@ -1,6 +1,6 @@
 # Template for a nodejs API
 
-## Descrição
+## Description
 
 Rest API using node.js, mongodb and all of those good practices that make your heart smile
 
